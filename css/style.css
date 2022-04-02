@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:regular,700);
+html {
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+h1 {
+    font-size: 0;
+    width: 0;
+    height: 0;
+}
+body{
+    margin: 0;
+    background-color: #D5E1EF;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #7D889E;
+}
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.wrapper {
+    width: 320px;
+    height: 497px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+    border-radius: 20px;
+}
+.bg-img-qr {
+    width: 288px;
+    height: 288px;
+    background: #2C7DFA;
+    background-image: url(../images/0-02-05-cb26a2112d70c44cb9a96350b986a9ddfaddf1ec618a711cafad8acd25bedae9_538e990f42d69414.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 16px auto 24px;
+    border-radius: 10px;
+}
+.title {
+    color: #1F314F;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0 auto 16px;
+    width: 288px;
+}
+.text {
+    margin: 0 auto;
+    width: 256px;
+    letter-spacing: 0.1875px;
+}
